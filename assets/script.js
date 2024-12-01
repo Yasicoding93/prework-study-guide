@@ -7,7 +7,7 @@ function listTopics() {
  }
  
  function selectTopic() {
-  if (topics[0] === 'HTML') {
+  if (randomtopic === 'HTML') {
     console.log("Let's study HTML!");
   } else if (randomtopic === 'CSS') {
     console.log("Let's study CSS!");
